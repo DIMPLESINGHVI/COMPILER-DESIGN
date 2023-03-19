@@ -1,0 +1,23 @@
+void main()
+{
+    int i;
+    i = i + 10;
+}
+
+
+exp
+date
+title
+aim
+procedure
+program
+ip op
+result
+
+procedure:
+1. We create a text file named "input_file.txt" where the source program is present.
+1. We create a user defined function called "isKeyword" to check for keyword and return the value for flag
+2. In the main function we create a file pointer to read from the input file.
+3. We check whether the character is an operator, keyword or an identifier character by character.
+4. We create a count variable and increment it to count the number of tokens in the input file. 
+5. We then display the token count. 
